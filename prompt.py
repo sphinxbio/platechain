@@ -49,8 +49,8 @@ USER_PLATE_ORIENTATION = """,,,,\nChemical,,1,2,3\n,A,SB123,SB124,SB125\n,B,SB12
 USER_CONDITION_ORIENTATION = """,,,,\nPlate01,,1,2,3\n,A,SB-001,SB-001,SB-001\n,B,SB-002,SB-002,SB-002\n,C,SB-003,SB-003,SB-003\n,D,SB-004,SB-004,SB-004\n,Plate 2,1,2,3\n,A,SB-005,SB-005,SB-005\n,B,SB-006,SB-006,SB-006\n,C,SB-007,SB-007,SB-007\n,D,SB-008,SB-008,SB-008\nplate3,,,,\n,1,2,3,\nA,SB-193,SB-194,SB-195,\nB,SB-193,SB-194,SB-195,\nC,SB-193,SB-194,SB-195,\nD,SB-193,SB-194,SB-195,\n,,,,\n,,,,\nplate 04,1,2,3,\nA,PR-001,PR-001,PR-001,\nB,PR-002,PR-002,PR-002,\nC,PR-003,PR-003,PR-003,\nD,PR-004,PR-004,PR-004,\n"""  # noqa: E501
 
 ASSISTANT_PLATE_ORIENTATION = """
-[{"row_start": 2, "row_end": 5, "col_start": 2, "col_end": 4, "contents": "Chemical"}, {"row_start": 7, "row_end": 10, "col_start": 2, "col_end": 4, "contents": "Control"},{"row_start": 13, "row_end": 16, "col_start": 1, "col_end": 3, "contents": "Dox Concentration"},{"row_start": 20, "row_end": 23, "col_start": 1, "col_end": 3, "contents": "Primer"}]
+[{"row_start": 1, "row_end": 4, "col_start": 2, "col_end": 4, "contents": "Chemical"}, {"row_start": 6, "row_end": 9, "col_start": 2, "col_end": 4, "contents": "Control"},{"row_start": 12, "row_end": 15, "col_start": 1, "col_end": 3, "contents": "Dox Concentration"},{"row_start": 19, "row_end": 22, "col_start": 1, "col_end": 3, "contents": "Primer"}]
 """  # noqa: E501
 ASSISTANT_CONDITION_ORIENTATION = """
-[{"row_start": 2, "row_end": 5, "col_start": 2, "col_end": 4, "contents": "Plate01"}, {"row_start": 7, "row_end": 10, "col_start": 2, "col_end": 4, "contents": "Plate 2"},{"row_start": 13, "row_end": 16, "col_start": 1, "col_end": 3, "contents": "plate3"},{"row_start": 20, "row_end": 23, "col_start": 1, "col_end": 3, "contents": "plate 04"}]
+[{"row_start": 1, "row_end": 4, "col_start": 2, "col_end": 4, "contents": "Plate01"}, {"row_start": 6, "row_end": 9, "col_start": 2, "col_end": 4, "contents": "Plate 2"},{"row_start": 12, "row_end": 15, "col_start": 1, "col_end": 3, "contents": "plate3"},{"row_start": 19, "row_end": 22, "col_start": 1, "col_end": 3, "contents": "plate 04"}]
 """  # noqa: E501
