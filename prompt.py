@@ -45,7 +45,7 @@ Produce your output as JSON. The format should be:
 ```
 """  # noqa: E501
 
-USER_PLATE_ORIENTATION = """,,,,\nChemical,,1,2,3\n,A,SB123,SB124,SB125\n,B,SB123,SB124,SB126\n,C,SB123,SB124,SB127\n,D,SB123,SB124,SB128\n,Control,1,2,3\n,A,Negative,Positive,Library\n,B,Negative,Positive,Library\n,C,Negative,Positive,Library\n,D,Negative,Positive,Library\nDox Concentration,,,,\n,1,2,3,\nA,0.005,0.005,0.005,\nB,0.005,0.005,0.005,\nC,0.005,0.005,0.005,\nD,0.005,0.005,0.005,\n,,,,\n,,,,\nPrimer,1,2,3,\nA,PR-001,PR-001,PR-001,\nB,PR-002,PR-002,PR-002,\nC,PR-003,PR-003,PR-003,\nD,PR-004,PR-004,PR-004,\n"""  # noqa: E501
+USER_PLATE_ORIENTATION = """,,,,\nChemical,,1,2,3\n,A,SB123,SB124,SB125\n,B,SB123,SB124,SB126\n,C,,,\n,D,SB123,SB124,SB128\n,Control,1,2,3\n,A,Negative,Positive,Library\n,B,Negative,Positive,Library\n,C,Negative,Positive,Library\n,D,Negative,Positive,Library\nDox Concentration,,,,\n,1,2,3,\nA,0.005,,0.005,\nB,0.005,,0.005,\nC,0.005,,0.005,\nD,0.005,,0.005,\n,,,,\n,,,,\nPrimer,1,2,3,\nA,PR-001,PR-001,PR-001,\nB,PR-002,PR-002,PR-002,\nC,PR-003,PR-003,PR-003,\nD,PR-004,PR-004,PR-004,\n""" # noqa: E501
 USER_CONDITION_ORIENTATION = """,,,,\nPlate01,,1,2,3\n,A,SB-001,SB-001,SB-001\n,B,SB-002,SB-002,SB-002\n,C,SB-003,SB-003,SB-003\n,D,SB-004,SB-004,SB-004\n,Plate 2,1,2,3\n,A,SB-005,SB-005,SB-005\n,B,SB-006,SB-006,SB-006\n,C,SB-007,SB-007,SB-007\n,D,SB-008,SB-008,SB-008\nplate3,,,,\n,1,2,3,\nA,SB-193,SB-194,SB-195,\nB,SB-193,SB-194,SB-195,\nC,SB-193,SB-194,SB-195,\nD,SB-193,SB-194,SB-195,\n,,,,\n,,,,\nplate 04,1,2,3,\nA,PR-001,PR-001,PR-001,\nB,PR-002,PR-002,PR-002,\nC,PR-003,PR-003,PR-003,\nD,PR-004,PR-004,PR-004,\n"""  # noqa: E501
 
 ASSISTANT_PLATE_ORIENTATION = """
