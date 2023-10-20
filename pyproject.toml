@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "plate-chain"
+version = "0.0.1"
+description = ""
+authors = ["Nicholas Larus-Stone <nicholas@sphinxbio.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.279"
+pandas = "^2.1.0"
+python-dotenv = "^1.0.0"
+openai = "^0.28.0"
+tabulate = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+black = "^23.7.0"
+ruff = "^0.0.287"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
