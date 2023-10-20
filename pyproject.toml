@@ -1,10 +1,8 @@
 [tool.poetry]
 name = "plate-chain"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
-authors = [
-    "Nicholas Larus-Stone <7347808+nlarusstone@users.noreply.github.com>",
-]
+authors = ["Nicholas Larus-Stone <nicholas@sphinxbio.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
