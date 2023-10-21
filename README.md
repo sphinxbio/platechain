@@ -1,2 +1,3 @@
 # plate-chain
-LLMs for microplate data
+
+LLMs to parse microplate data
