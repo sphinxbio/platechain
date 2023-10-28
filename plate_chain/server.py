@@ -38,12 +38,12 @@ class ChainInput(BaseModel):
     num_cols: int | None = None
 
 
-@app.get("/")
-async def root(f: UploadFile = File(...)):
+@app.post("/upload")
+async def upload(args: ChainInput, f: UploadFile = File(...)):
     pass
 
 
-add_routes(app, chain, input_type=ChainInput, config_keys=["configurable"])
+add_routes(app, chain, input_type=UploadFile, config_keys=["configurable"])
 
 # Alternatively, you can rely on langchain's type inference
 # to infer the input type from the runnable interface.
