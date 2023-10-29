@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "plate-chain"
+name = "platechain"
 version = "0.0.1"
-description = ""
+description = "A library of universal parsers for microplate data"
 authors = ["Nicholas Larus-Stone <nicholas@sphinxbio.com>"]
 readme = "README.md"
 
