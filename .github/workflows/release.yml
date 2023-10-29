@@ -26,7 +26,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Install Poetry ${{ env.POETRY_VERSION }}}
+      - name: Install Poetry ${{ env.POETRY_VERSION }}
         uses: snok/install-poetry@v1
         with:
           version: ${{ env.POETRY_VERSION }}
