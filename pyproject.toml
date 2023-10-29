@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "platechain"
-version = "0.0.2"
+version = "0.0.3"
 description = "A library of universal parsers for microplate data"
 authors = ["Nicholas Larus-Stone <nicholas@sphinxbio.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-langchain = "^0.0.279"
+langchain = ">=0.0.313,<0.1"
 pandas = "^2.1.0"
 python-dotenv = "^1.0.0"
 openai = "^0.28.0"
