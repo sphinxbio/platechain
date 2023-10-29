@@ -5,13 +5,13 @@ from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate
 from langchain.schema.output_parser import StrOutputParser
 import pandas as pd
 
-from plate_chain.prompts import (
+from platechain.prompts import (
     AI_REPONSE_DICT,
     FULL_PROMPT,
     USER_EXAMPLE_DICT,
     create_prompt,
 )
-from plate_chain.utils import (
+from platechain.utils import (
     get_plate_dimensions,
     parse_llm_output,
     tidy_rectangular_plate_data,

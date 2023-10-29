@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from pydantic import BaseModel, conint, Field
 
-from plate_chain.constants import ROW_LETTERS
+from platechain.constants import ROW_LETTERS
 
 
 class LLMPlateResponse(BaseModel):
