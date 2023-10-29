@@ -26,14 +26,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up Python + Poetry ${{ env.POETRY_VERSION }}
-        uses: "./.github/actions/poetry_setup"
+      - name: Install Poetry ${{ env.POETRY_VERSION }}}
+        uses: snok/install-poetry@v1
         with:
-          python-version: "3.10"
-          poetry-version: ${{ env.POETRY_VERSION }}
-          cache-key: release
-
+          version: ${{ env.POETRY_VERSION }}
       - name: Build project for distribution
         run: poetry build
       - name: Check Version
