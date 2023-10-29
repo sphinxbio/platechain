@@ -6,7 +6,7 @@ authors = ["Nicholas Larus-Stone <nicholas@sphinxbio.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 langchain = "^0.0.279"
 pandas = "^2.1.0"
 python-dotenv = "^1.0.0"
