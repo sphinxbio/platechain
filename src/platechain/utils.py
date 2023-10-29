@@ -56,7 +56,7 @@ def tidy_rectangular_plate_data(
     return pd.DataFrame(new_rows)
 
 
-def get_plate_dimensions(df: pd.DataFrame, plate_loc: LLMPlateResponse) -> pd.DataFrame:
+def pluck_plate_from_df(df: pd.DataFrame, plate_loc: LLMPlateResponse) -> pd.DataFrame:
     row_start, row_end = plate_loc.row_start, plate_loc.row_end + 1
     col_start, col_end = plate_loc.col_start, plate_loc.col_end + 1
     proposed_plate = df.iloc[
