@@ -41,10 +41,8 @@ jobs:
         with:
           artifacts: "dist/*"
           token: ${{ secrets.GITHUB_TOKEN }}
-          draft: false
           generateReleaseNotes: true
           tag: v${{ steps.check-version.outputs.version }}
-          commit: master
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
