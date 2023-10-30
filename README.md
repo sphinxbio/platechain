@@ -4,7 +4,7 @@
 
 Parsing microplate data is an extremely common task in the life sciences. This package provides a simple, universal interface for parsing all different types of microplate data into a [tidy](https://r4ds.had.co.nz/tidy-data.html) format.
 
-**Note: this package is still early in development and may not work with all machines and data formats. If you are having trouble with a specific usecase, please [reach out](mailto:hello@sphinxbio.com?subject=Platechain)**
+**Note: this package is still early in development and may not work with all machines and data formats. If you are having trouble with a specific usecase, please [reach out](mailto:platechain@sphinxbio.com?subject=Platechain)**
 
 <p align="center">
     <img src="images/platechain.png?raw=true" width="400" height="400" alt="Platechain">
@@ -66,6 +66,6 @@ This project is licensed under the terms of the [Apache 2.0 license](./LICENSE).
 
 ## Acknowledgements
 
-This is a [Sphinx Bio](sphinxbio.com) project! If you're interested in a hosted solution for your lab, please reach out to [Nicholas](mailto:nicholas@sphinxbio.com).
+This is a [Sphinx Bio](sphinxbio.com) project! If you're interested in a hosted solution for your lab, please [reach out](mailto:platechain@sphinxbio.com?subject=Platechain).
 
 Thanks to [Harrison](@hwchase17) and the [Langchain](langchain.com) team for their help as well!
