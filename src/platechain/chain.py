@@ -6,7 +6,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate
 from langchain.schema.output_parser import StrOutputParser
 import pandas as pd
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from platechain.constants import COLS_TO_WELLS_DICT, ROWS_TO_WELLS_DICT
 
 from platechain.prompts import (
