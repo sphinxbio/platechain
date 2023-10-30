@@ -13,7 +13,11 @@ Parsing microplate data is an extremely common task in the life sciences. This p
 ## Motivation
 
 One of the core problems of dealing with plate based data is that every manufacturer and machine has a different output format. Rather than build hundreds of separate parsers, we leverage the latest advancements in LLMs to build a single parser that can handle many different formats.
+| | |
+|:---:|:---:|
+| <img src="images/spark_raw.png?raw=true" alt="Raw Spark data" style="width: 200px; object-fit: contain; margin-right: 10px; display: inline-block;"/> | <img src="images/spark_parsed.png?raw=true" alt="Parsed dataframe" style="width: 200px; object-fit: contain; margin-left: 10px; display: inline-block;"/> |
 
+<!--
 <div style="text-align: center;">
     <div style="display: inline-block; text-align: center;">
         <img src="images/spark_raw.png?raw=true" alt="Raw Spark data" style="width: 200px; object-fit: contain; margin-right: 10px; display: inline-block;"/>
@@ -23,7 +27,7 @@ One of the core problems of dealing with plate based data is that every manufact
     <div style="margin-top: 10px; text-align: center;">
         <strong>Platechain:</strong> From raw data output (left) to a parsed, structured format (right).
     </div>
-</div>
+</div> -->
 
 ## Getting started
 
