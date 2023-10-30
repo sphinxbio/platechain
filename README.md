@@ -66,6 +66,6 @@ This project is licensed under the terms of the [Apache 2.0 license](./LICENSE).
 
 ## Acknowledgements
 
-This is a [Sphinx Bio](sphinxbio.com) project! If you're interested in a hosted solution for your lab, please [reach out](mailto:platechain@sphinxbio.com?subject=Platechain).
+This is a [Sphinx Bio](https://sphinxbio.com) project! If you're interested in a hosted solution for your lab, please [reach out](mailto:platechain@sphinxbio.com?subject=Platechain).
 
-Thanks to [Harrison](@hwchase17) and the [Langchain](langchain.com) team for their help as well!
+Thanks to [Harrison](https://github.com/hwchase17) and the [Langchain](https://langchain.com) team for their help as well!
