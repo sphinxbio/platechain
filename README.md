@@ -28,6 +28,12 @@ One of the core problems of dealing with plate based data is that every manufact
 pip install platechain
 ```
 
+Make sure to set your `OPENAI_API_KEY` environment variable to your [OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key).
+
+You can also set up your `LANGCHAIN_API_KEY` for tracing (see [docs](https://docs.smith.langchain.com/) for more info).
+
+We have an example `.env.template` which listed the variables environment variables you can and should set.
+
 ## Usage
 
 ```python
