@@ -2,9 +2,9 @@
 
 [![release](https://github.com/sphinxbio/platechain/actions/workflows/release.yml/badge.svg)](https://github.com/sphinxbio/platechain/actions/workflows/release.yml)
 
-Parsing microplate data is an extremely common task in the life sciences. This package provides a simple interface for parsing microplate data into a [tidy](https://r4ds.had.co.nz/tidy-data.html) format.
+Parsing microplate data is an extremely common task in the life sciences. This package provides a simple, universal interface for parsing all different types of microplate data into a [tidy](https://r4ds.had.co.nz/tidy-data.html) format.
 
-**Note: this package is still early in development and may not work with all machines and data formats. If you are having trouble with your specific usecase, please reach out to [Nicholas](mailto:nicholas@sphinxbio.com)**
+**Note: this package is still early in development and may not work with all machines and data formats. If you are having trouble with a specific usecase, please [reach out](mailto:hello@sphinxbio.com?subject=Platechain)**
 
 ![Platechain](images/platechain.png?raw=true)
 
@@ -51,6 +51,11 @@ The core logic is implemented in [chain.py](./src/platechain/chain.py).
 This file contains a single function, `parse_plates`, which takes a dataframe and returns a list of dataframes, one for each plate.
 
 It also exposes a [LangChain](langchain.com) chain using [LCEL](https://python.langchain.com/docs/expression_language/) which can be modified to support your specific usecase.
+
+## Limitations
+
+- Currently only supports 24, 96, and 384 well plates. 1536 well plates are coming soon!
+- Only handles plate data that is visually laid out in a grid. If your plate data is already in a table (e.g. a timeseries), this package will not parse it correctly.
 
 ## Contributing
 
