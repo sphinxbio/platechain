@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 FULL_PROMPT = """# Context
 - Plate-based data is rectangular and could be situated anywhere within the dataset.
 - The first item in every row is the row index
