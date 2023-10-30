@@ -6,7 +6,9 @@ Parsing microplate data is an extremely common task in the life sciences. This p
 
 **Note: this package is still early in development and may not work with all machines and data formats. If you are having trouble with a specific usecase, please [reach out](mailto:hello@sphinxbio.com?subject=Platechain)**
 
-![Platechain](images/platechain.png?raw=true)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+<img src="images/platechain.png?raw=true" width="300" height="300" alt="Platechain">
+</div>
 
 ## Motivation
 
@@ -14,9 +16,9 @@ One of the core problems of dealing with plate based data is that every manufact
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
     <div style="display: flex; align-items: center; justify-content: center;">
-        <img src="images/spark_raw.png?raw=true" alt="Raw Spark data" style="width: 200px; height: 200px; margin-right: 10px;"/> 
+        <img src="images/spark_raw.png?raw=true" alt="Raw Spark data" style="width: 200px; object-fit: contain; margin-right: 10px;"/> 
         →
-        <img src="images/spark_parsed.png?raw=true" alt="Parsed dataframe" style="width: 200px; height: 200px; margin-left: 10px;"/>
+        <img src="images/spark_parsed.png?raw=true" alt="Parsed dataframe" style="width: 200px; object-fit: contain; margin-left: 10px;"/>
     </div>
     <div style="margin-top: 10px; text-align: center;">
         <strong>Platechain:</strong> From raw data output (left) to a parsed, structured format (right).
