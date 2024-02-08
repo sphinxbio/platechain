@@ -50,6 +50,14 @@ plate_dfs = parse_plates(df)
 
 See the [notebooks](./notebooks) directory for more examples.
 
+if you want to use notebooks with a virtualenv you will need to install the jupyter kernal.
+
+activate your virtualenv and then run
+
+```
+python -m ipykernel install --user --name platechain
+```
+
 ## Implementation
 
 The core logic is implemented in [chain.py](./src/platechain/chain.py).
