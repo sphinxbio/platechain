@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from typing import Union
 
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate
@@ -37,9 +38,9 @@ prompt = ChatPromptTemplate.from_messages(
 
 class ParsePlateRequest(BaseModel):
     df: pd.DataFrame
-    num_plates: int | None
-    num_rows: int | None
-    num_cols: int | None
+    num_plates: Union[int, None]
+    num_rows: Union[int, None]
+    num_cols: Union[int, None]
 
     class Config:
         # Needed to allow pandas dataframes as a type
@@ -152,9 +153,9 @@ chain = (
 
 def parse_plates(
     df: pd.DataFrame,
-    num_plates: int | None = None,
-    num_rows: int | None = None,
-    num_cols: int | None = None,
+    num_plates: Union[int, None] = None,
+    num_rows: Union[int, None] = None,
+    num_cols: Union[int, None] = None,
 ) -> list[pd.DataFrame]:
     """
     df must have a numeric index
