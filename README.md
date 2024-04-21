@@ -59,7 +59,7 @@ It also exposes a [LangChain](langchain.com) chain using [LCEL](https://python.l
 
 ## Limitations
 
-- Currently only supports 24, 96, and 384 well plates. 1536 well plates are coming soon!
+- Currently only supports 24, 48, 96, and 384 well plates. 1536 well plates are coming soon!
 - Only handles plate data that is visually laid out in a grid. If your plate data is already in a table (e.g. a timeseries), this package will not parse it correctly.
 
 ## Contributing
