@@ -1,12 +1,14 @@
 from __future__ import annotations
 
+from typing import Union
+
 FULL_PROMPT = """# Context
 - Plate-based data is rectangular and could be situated anywhere within the dataset.
 - The first item in every row is the row index
 {hint}
 
 # Rules
-- Ignore all data which is not part of the plate. 
+- Ignore all data which is not part of the plate.
 - Row identifiers start with a single letter of the alphabet.
 - The header row of the plate has monotonically increasing integers {col_range_str}.
 - The header row should NOT be considered the starting row of the plate.
@@ -61,7 +63,11 @@ AI_REPONSE_DICT = {
 }
 
 
-def create_prompt(num_plates: int | None, num_rows: int | None, num_cols: int | None):
+def create_prompt(
+    num_plates: Union[int, None],
+    num_rows: Union[int, None],
+    num_cols: Union[int, None],
+):
     additional_prompts = []
     if num_plates:
         num_plates_str = f"are {num_plates} plates" if num_plates > 1 else "is 1 plate"
