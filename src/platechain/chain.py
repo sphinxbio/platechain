@@ -22,8 +22,8 @@ from platechain.utils import (
 )
 
 
-llm = ChatOpenAI(temperature=0, model="gpt-4").with_fallbacks(
-    [ChatOpenAI(temperature=0, model="gpt-3.5-turbo-16k")]
+llm = ChatOpenAI(temperature=0, model="o1-mini").with_fallbacks(
+    [ChatOpenAI(temperature=0, model="gpt-4o")]
 )
 prompt = ChatPromptTemplate.from_messages(
     [
